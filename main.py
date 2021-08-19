@@ -1,6 +1,6 @@
 import unittest
-test_dir ="C:\\Users\\Apple\\PycharmProjects\\pythonProject\\30day\\day25\\tecase"
-dis = unittest.defaultTestLoader.discover(test_dir,pattern="testcases*.py")
+test_dir ="C:\\Users\\Administrator\\PycharmProjects\\30day\\day27\\cases"
+dis = unittest.defaultTestLoader.discover(test_dir,pattern="test*.py")
 
 # 创建套件
 suit = unittest.TestSuite()
